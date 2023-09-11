@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <button>
+        <a href="../index.html">Volver atras</a>
+    </button>
+    <form action="formulario">
+        <p>Nombre: <input type="text"></p>
+        <p>Apellidos: <input type="text"></p>
+        <p>Fecha de nacimiento: <input type="date"></p>
+        <p>Lugar de nacimiento: <input type="text"></p>
+        <p>Sexo: 
+            <input type="radio" name="FM" >F
+            <input type="radio" name="FM" >M
+        </p>
+        <p>Tipo de documento<input type="text" list="items" ></p>
+        <datalist id="items">
+            <option >Cedula de ciudadania</option>
+            <option >Cedula de extrangeria</option>
+            <option >Pasaporte</option>
+        </datalist>
+        <p>Numero de documento <input type="number" > </p>
+        <textarea name="text" id="" cols="30" rows="10" placeholder="Escriba un comentario"></textarea>
+        <br>
+        <button>Enviar Formulario</button>
+    </form>
+</body>
+</html>
