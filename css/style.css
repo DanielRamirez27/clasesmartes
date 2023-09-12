@@ -1,0 +1,55 @@
+/*importar tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,200&display=swap');
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*selector de etiqueta*/
+a{
+    margin-left: 30px;
+    color: rgb(9, 34, 255);
+}
+/* selector por id */
+#option_one, #option_two, #option_three{
+    color: rgb(93, 146, 7);
+}
+
+/* selector por clase */
+.group_option{
+    background-color: azure;
+    margin-top: 5px;
+}
+.grup_class{
+    padding: 10px;
+}
+/* selector por seudoclases */
+.group_option:hover{
+    background-color: rgb(245, 21, 21);
+    color: antiquewhite;
+}
+/* selector por atributo */
+[disabled]{
+    background-color: red;
+}
+/* selectores desendentes */
+#papa{
+    border: 10px double red;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    box-shadow: 0px 20px 10px;
+}
+/* selector adyacente */
+#papa >.hermanos + .hermanos{
+    color: rgb(126, 13, 231);
+}
+/* selector desendente */
+#papa a{
+    color: rgb(14, 218, 116);
+}
+/* selctor hijo */
+#papa > #etiqueta > a{
+    color: orange;
+}
