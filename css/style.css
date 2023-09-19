@@ -53,3 +53,53 @@ a{
 #papa > #etiqueta > a{
     color: orange;
 }
+/* TITULO PARA BOX MODEL */
+#title_box{
+    color: firebrick;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px 1px green;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(247,0,247,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(247,0,247,1);
+    box-shadow: 0px 0px 10px 1px rgba(247,0,247,1);
+    font-size: 40px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-transform: lowercase;
+}
+#box_father{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border-radius:15px;
+    background-image: url(https://www.freepik.es/vector-gratis/chico-lindo-jugando-futbol-dibujos-animados-vector-icono-ilustracion-concepto-icono-deporte-personas-aislado-vector-premium-estilo-dibujos-animados-plana_22049547.htm#query=futbol%20animado&position=0&from_view=keyword&track=ais)
+}   
+/* #box_model{ */
+    /* width: 50%; */
+    /* height: 50%; */
+    /* background-color: chocolate; */
+    /* border-radius: 5px; */
+/* } */
+/* media querys */
+@media (min-width: 800px) and (max-width: 1200px){
+body{
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+}
+@media (max-width: 799px){
+    body{
+        background-size: cover;
+        background-image: url(https://www.freepik.es/vector-gratis/chico-lindo-jugando-futbol-dibujos-animados-vector-icono-ilustracion-concepto-icono-deporte-personas-aislado-vector-premium-estilo-dibujos-animados-plana_22049547.htm#query=futbol%20animado&position=0&from_view=keyword&track=ais)
+    }
+    
+
+}
